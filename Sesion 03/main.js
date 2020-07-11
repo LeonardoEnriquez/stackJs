@@ -15,12 +15,11 @@ function personalInfo(nombre,telefono,tema)
 console.log(personalInfo("Leonardo","6642044836","Javascript")) */
 
 
-
-var folioActual=(function() {
-    var folio=0;
+/* 
+var folioActual=(function(folio) {
     console.log(folio);
     return folio;    
-})();
+})(0);
 
 function obtenerFolioSiguiente(){
     //var folioActual=1; //Este valor debera ser obtenido de la tabla de folios
@@ -36,3 +35,28 @@ function boletinDatos(nombre,numeroEmpleado,extension,descripcion) {
 console.log(obtenerFolioSiguiente());
 
 console.log(boletinDatos("Leonardo Enriquez","2399","7734","Ampliar la longitud de captura del nombre"));
+ 
+
+function obtenerFechaActual()
+{
+
+    return Date.getDate();
+
+} */
+/* 
+ function getLergerInt(number1, number2){
+     if(number1>number2)
+     {
+     return number1
+     }
+     else
+     {
+     return number2
+     }
+ }
+ 
+ console.log(getLergerInt(3,5));
+ console.log(obtenerFechaActual());
+*/
+
+
